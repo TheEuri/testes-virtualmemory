@@ -2,3 +2,5 @@ Makefile
 correct.txt
 *.c
 *.bin
+vm
+diffs

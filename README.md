@@ -11,6 +11,10 @@ Caso queira executar um teste específico execute o seguinte comando:
 ./run.sh [num_do_teste]
 ex.: ./run.sh 1
 
+Se houver diferenças no seu resultado ele printará esses erros na pasta diff com o nome do arquivo que deu a
+diferença.
+Sendo a linha começando com "<" o recebido e a linha começando com ">" o resultado esperado.
+
 O SCRIPT NÃO MODIFICA NADA DO SEU CÓDIGO. Ele apenas compila seu código e roda os testes. 
 
 A pasta deve ta organizada da seguinte forma:
